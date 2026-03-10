@@ -15,9 +15,9 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
-// Typing Effect - Update these with YOUR roles
+// Typing Effect
 const typedTextSpan = document.querySelector('.typed-text');
-const words = ['DevOps Engineer', 'Cloud Enthusiast', 'Automation Lover', 'Linux User']; // Change these!
+const words = ['Network Support Engineer', 'DevOps Learner', 'Cloud Enthusiast', 'Automation Lover'];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -59,7 +59,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form submission (just shows alert - replace with actual form handling later)
+// Form submission
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {

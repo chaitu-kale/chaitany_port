@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #0a66c2;    /* Professional blue */
+    --primary-color: #4a90e2;
     --secondary-color: #2c3e50;
     --text-color: #333;
     --bg-color: #f4f4f4;
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
 }
@@ -36,14 +36,14 @@ body {
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
     text-decoration: none;
@@ -88,7 +88,7 @@ section {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .section-title {
@@ -122,7 +122,7 @@ section {
 .home-content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .home h1 {
@@ -268,6 +268,10 @@ section {
 }
 
 /* Projects Section */
+.projects {
+    background: var(--white);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -312,7 +316,7 @@ section {
     padding: 0.3rem 0.6rem;
     background: var(--bg-color);
     border-radius: 3px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 .project-links {
@@ -331,6 +335,10 @@ section {
 }
 
 /* Contact Section */
+.contact {
+    background: var(--bg-color);
+}
+
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
