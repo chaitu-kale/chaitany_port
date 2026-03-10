@@ -17,7 +17,7 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
 
 // Typing Effect
 const typedTextSpan = document.querySelector('.typed-text');
-const words = ['Network Support Engineer', 'DevOps Learner', 'Cloud Enthusiast', 'Automation Lover'];
+const words = ['Network Engineer', 'DevOps Learner', 'Cloud & Security Enthusiast', 'Linux/Windows Administrator'];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
